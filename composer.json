@@ -1,0 +1,19 @@
+{
+    "name": "tioncico/logic-assert",
+    "type": "l",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "tioncico",
+            "email": "1067197739@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LogicAssert\\": "src/",
+            "EventHook\\Test\\": "tests/"
+        }
+    }
+}
