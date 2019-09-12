@@ -2,6 +2,7 @@
     "name": "tioncico/logic-assert",
     "type": "l",
     "license": "Apache",
+    "description": "逻辑断言",
     "authors": [
         {
             "name": "tioncico",
