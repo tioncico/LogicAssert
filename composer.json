@@ -1,7 +1,7 @@
 {
     "name": "tioncico/logic-assert",
     "type": "l",
-    "license": "Apache",
+    "license": "Apache-2.0",
     "description": "逻辑断言",
     "authors": [
         {
