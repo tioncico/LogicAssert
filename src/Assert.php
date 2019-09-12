@@ -25,13 +25,12 @@ class Assert
 
     static function assertTrue($condition, string $message)
     {
-        empty($message) && ($message = "true Fail");
-        self::throwException($condition, $message);
+        self::throwException($condition===true, $message);
     }
 
     static function assertFalse($condition, string $message)
     {
-        self::throwException(!$condition, $message);
+        self::throwException($condition===false, $message);
     }
 
     static function assertGreaterThan($expected, $actual, string $message){
